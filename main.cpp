@@ -16,7 +16,10 @@ int change_amount;
     cin >> change_amount;
 
 
-int balence, dollars, quarters, dimes, nickels, pennies;
+int balance, dollars, quarters, dimes, nickels, pennies;
+
+ dollars = change_amount / dollar_value;   
+    balance = change_amount % dollar_value;
 
 
 return 0;
