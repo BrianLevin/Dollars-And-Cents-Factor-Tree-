@@ -12,6 +12,10 @@ const int nickel_value = 5;
 
 int change_amount;
 
+  cout << "Enter an amount in cents : ";
+    cin >> change_amount;
+
+
 int balence, dollars, quarters, dimes, nickels, pennies;
 
 
