@@ -18,8 +18,11 @@ int change_amount;
 
 int balance, dollars, quarters, dimes, nickels, pennies;
 
- dollars = change_amount / dollar_value;   
-    balance = change_amount % dollar_value;
+dollars = change_amount / dollar_value;   
+balance = change_amount % dollar_value;
+
+quarters = balance/quarter_value;
+balence %= quarter_value;
 
 
 return 0;
