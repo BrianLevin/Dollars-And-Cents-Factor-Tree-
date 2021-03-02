@@ -27,6 +27,9 @@ balence %= quarter_value;
  dimes = balance / dime_value;
     balance %= dime_value;
 
+    nickels = balance/nickel_value;
+    balance%= nickel_value;
+
 
 return 0;
 
