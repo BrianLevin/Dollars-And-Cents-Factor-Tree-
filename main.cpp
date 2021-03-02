@@ -24,6 +24,9 @@ balance = change_amount % dollar_value;
 quarters = balance/quarter_value;
 balence %= quarter_value;
 
+ dimes = balance / dime_value;
+    balance %= dime_value;
+
 
 return 0;
 
