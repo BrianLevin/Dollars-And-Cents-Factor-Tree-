@@ -30,6 +30,7 @@ balence %= quarter_value;
     nickels = balance/nickel_value;
     balance%= nickel_value;
 
+pennies = balance;
 
 return 0;
 
